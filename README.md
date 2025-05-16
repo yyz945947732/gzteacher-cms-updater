@@ -61,7 +61,7 @@ npx cms-update
 ```sh
 -h --help              Print this help
 -v --version           Print @gzteacher/cms-server version number
--d --out-dir <dir>     Customize the output directory, (default dist)
+-d --out-dir <dir>     Customize the output directory, (default "dist")
 ```
 
 ## LICENSE
