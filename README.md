@@ -56,6 +56,14 @@ npm install -g @gzteacher/cms-updater
 npx cms-update
 ```
 
+## Options
+
+```sh
+-h --help              Print this help
+-v --version           Print @gzteacher/cms-server version number
+-d --out-dir <dir>     Customize the output directory, (default dist)
+```
+
 ## LICENSE
 
 [MIT](https://github.com/yyz945947732/@gzteacher/cms-updater/blob/master/LICENSE)

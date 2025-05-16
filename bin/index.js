@@ -13,6 +13,7 @@ const pkg = JSON.parse(
 const aliases = {
   h: 'help',
   v: 'version',
+  d: "out-dir",
 };
 
 const parseCliArguments = (args) => {
