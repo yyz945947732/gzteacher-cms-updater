@@ -1,0 +1,65 @@
+# @gzteacher/cms-updater
+
+<p>
+  <a href="https://www.npmjs.com/package/@gzteacher/cms-updater">
+    <img src="https://img.shields.io/npm/v/@gzteacher/cms-updater.svg" alt="Version" />
+  </a>
+  <a href="https://github.com/yyz945947732/@gzteacher/cms-updater/pulls">
+    <img
+      src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg"
+      alt="PRs Welcome"
+    />
+  </a>
+  <a href="/LICENSE.md">
+    <img
+      src="https://img.shields.io/badge/license-MIT-blue.svg"
+      alt="GitHub license"
+    />
+  </a>
+</p>
+
+🚀 一键更新 cms 旧语法到新语法
+
+## Quick start
+
+### 本地安装
+
+```sh
+npm install -D @gzteacher/cms-updater
+```
+
+`package.json` 文件添加以下命令:
+
+```json
+"scripts": {
+  "update": "cms-update"
+}
+```
+
+执行命令运行服务：
+
+```bash
+npm run update
+```
+
+<img src="./assets/example.png" />
+
+### 全局安装
+
+```sh
+npm install -g @gzteacher/cms-updater
+```
+
+通过 `npx` 直接运行：
+
+```sh
+npx cms-update
+```
+
+## LICENSE
+
+[MIT](https://github.com/yyz945947732/@gzteacher/cms-updater/blob/master/LICENSE)
+
+---
+
+This project is created using [generator-stupid-cli](https://github.com/yyz945947732/generator-stupid-cli).
