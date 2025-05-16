@@ -20,6 +20,8 @@
 
 🚀 一键更新 cms 旧语法到新语法
 
+[cms 参考文档](http://doc.mingsoft.net/mcms/mo-ban-zhi-zuo/jiu-mo-ban-kuai-su-sheng-ji.html)
+
 ## Quick start
 
 ### 本地安装
@@ -41,8 +43,6 @@ npm install -D @gzteacher/cms-updater
 ```bash
 npm run update
 ```
-
-<img src="./assets/example.png" />
 
 ### 全局安装
 
