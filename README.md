@@ -38,7 +38,7 @@ npm install -D @gzteacher/cms-updater
 }
 ```
 
-执行命令运行服务：
+执行命令运行脚本：
 
 ```bash
 npm run update
