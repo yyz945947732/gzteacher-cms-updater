@@ -1,6 +1,6 @@
 {
   "name": "@gzteacher/cms-updater",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "一键更新 cms 旧语法到新语法",
   "homepage": "https://github.com/yyz945947732/@gzteacher/cms-updater",
   "scripts": {
