@@ -1,12 +1,20 @@
 <span>[field.descrip/]</span>
 <a class="dynamic-title" href="[field.link/]">[field.title/]</a>
 <a class="dynamic-title" href="${field:link}">{ms:field.content/}</a>
-<img src="{ms:global.host/}[field.litpic/]">
+<img src="{ms:global.host/}[field.litpic/]" />
 <div>{ms:include filename=head-file.htm/}</div>
 <p>${field.date?date?string("yyyy-mm-dd")}</p>
-<p>[[field.date?string("yyyy-mm-dd")/]] </p>
+<p>[[field.date?string("yyyy-mm-dd")/]]</p>
 <p class="date-b">[field.date fmt=yyyy.MM/]</p>
 <p class="date-b">{ms:field.date fmt=yyyy-MM-dd hh:mm/}</p>
 <p>[field.content.substring(0,255)]</p>
 <p>${field.content[0..140]}</p>
-<script type="text/javascript" src="{ms:globalskin.url/}/js/SuperSlide.js"></script>
+<script
+  type="text/javascript"
+  src="{ms:globalskin.url/}/js/SuperSlide.js"
+></script>
+<a href="{ms:page.index/}">首页</a>
+<a href="{ms:page.pre/}">上一页</a>
+<a href="{ms:page.next/}">下一页</a>
+<a href="{ms:page.last/}">末页</a>
+<a href="${field.typelink}">链接</a>
