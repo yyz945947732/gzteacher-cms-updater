@@ -4,7 +4,7 @@
   "description": "一键更新 cms 旧语法到新语法",
   "homepage": "https://github.com/yyz945947732/@gzteacher/cms-updater",
   "scripts": {
-    "start": "node ./bin/index.js",
+    "start": "cd example && node ../bin/index.js",
     "lint": "biome check --apply-unsafe ./lib && biome format --write ./lib",
     "knip": "knip"
   },
